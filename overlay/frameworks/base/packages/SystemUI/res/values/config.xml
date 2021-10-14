@@ -27,4 +27,8 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 -->
 <resources>
     <!-- The radius of the enrollment progress bar, in dp -->
+    <integer name="config_udfpsEnrollProgressBar" translatable="false">70</integer>
+
+    <!-- Color of the FOD view -->
+    <color name="config_fodColor">#00ffffff</color>
 </resources>

@@ -83,6 +83,9 @@ TARGET_USERIMAGES_USE_F2FS := true
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 DEVICE_MATRIX_FILE := $(DEVICE_PATH)/compatibility_matrix.xml
 
+# Fingerprint
+TARGET_SEC_FP_HAS_OPTICAL_UDFPS := true
+
 ## Include path
 TARGET_SPECIFIC_HEADER_PATH := $(DEVICE_PATH)/include
 

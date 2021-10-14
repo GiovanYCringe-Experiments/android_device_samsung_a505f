@@ -559,6 +559,7 @@ on fs
     chown system radio /sys/class/lcd/panel/enable_fd
     chown system system /sys/class/lcd/panel/mask_brightness
     chown system system /sys/class/lcd/panel/actual_mask_brightness
+    chown system system /sys/class/lcd/panel/hbm_override
 
 # Permissions for LCD POC
     chown system system /sys/class/lcd/panel/poc
