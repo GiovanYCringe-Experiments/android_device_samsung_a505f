@@ -17,6 +17,13 @@
 /dev/block/platform/.+/by-name/system        u:object_r:system_block_device:s0
 /dev/block/platform/.+/by-name/vendor        u:object_r:vendor_block_device:s0
 
+# Fingerprint
+/dev/esfp[0-9]                                                                                    u:object_r:fp_sensor_device:s0
+/dev/goodix_fp                                                                                    u:object_r:fp_sensor_device:s0
+
+# Hals
+/(vendor|system/vendor)/bin/hw/android.hardware.biometrics.fingerprint@2.3-service-samsung.exynos9610 u:object_r:hal_fingerprint_default_exec:s0
+
 # Bluetooth
 /dev/scsc_h4_0                               u:object_r:bt_device:s0
 

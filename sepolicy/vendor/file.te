@@ -20,6 +20,7 @@ type kpm_efs_file, fs_type;
 type mb_po_efs_file, fs_type;
 type pdp_efs_file, fs_type;
 type ssm_efs_file, fs_type;
+type biometrics_efs_file, file_type;
 
 # proc types
 type proc_simslot_count, fs_type, proc_type;
@@ -40,3 +41,4 @@ type sysfs_mem_boost_writable, sysfs_type, rw_fs_type, fs_type;
 type sysfs_cpuidle_writable, sysfs_type, rw_fs_type, fs_type;
 type sysfs_leds_writable, sysfs_type, rw_fs_type, fs_type;
 type sysfs_v4l, sysfs_type, r_fs_type, fs_type;
+type sysfs_fingerprint, sysfs_type, r_fs_type, fs_type;
