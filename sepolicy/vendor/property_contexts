@@ -10,6 +10,9 @@ ro.factory.factory_binary  u:object_r:vendor_factory_prop:s0
 # Gnss
 dev.gnss.                  u:object_r:vendor_gps_prop:s0
 
+# Fingerprint
+vendor.finger.down                               u:object_r:vendor_fingerprint_prop:s0
+
 # HWC
 hwc.exynos.      u:object_r:vendor_hwc_prop:s0
 hwc.exynos.vsync_mode      u:object_r:vendor_hwc_prop:s0
