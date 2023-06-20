@@ -8,7 +8,7 @@ echo ""
 # Dependencies
 echo "Cloning Dependencies Samsung"
 rm -rf hardware/samsung;
-git clone https://github.com/PixelExperience/hardware_samsung hardware/samsung;
+git clone https://github.com/LineageOS/android_hardware_samsung hardware/samsung;
 git clone https://github.com/LineageOS/android_hardware_samsung_slsi_libbt hardware/samsung_slsi/libbt;
 git clone https://github.com/LineageOS/android_hardware_samsung_slsi_scsc_wifibt_wifi_hal hardware/samsung_slsi/scsc_wifibt/wifi_hal;
 git clone https://github.com/LineageOS/android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib;
@@ -22,6 +22,6 @@ echo ""
 
 # Kernel
 echo "Cloning Clang + Kernel"
-git clone https://gitlab.com/ThankYouMario/android_prebuilts_clang-standalone -b 13 prebuilts/clang/host/linux-x86/clang-r433403b;
-git clone https://github.com/GiovanYCringe/kernel_a50 kernel/samsung/a50
+git clone https://gitlab.com/ThankYouMario/android_prebuilts_clang-standalone -b 12 --depth=1 prebuilts/clang/host/linux-x86/clang-r416183c2;
+git clone https://github.com/GiovanYCringe/kernel_a50 --depth=1 kernel/samsung/a50
 echo ""
