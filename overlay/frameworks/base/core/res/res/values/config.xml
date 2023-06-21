@@ -421,8 +421,8 @@
 <!-- The properties of a UDFPS sensor in pixels, in the order listed below: -->
 <integer-array name="config_udfps_sensor_props">
         <item>540</item>
-        <item>2137</item>
-        <item>119</item>
+        <item>2070</item>
+        <item>110</item>
     </integer-array>
 
     <!-- This string array should be overridden by the device to present a list of radio
