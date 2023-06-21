@@ -8,7 +8,7 @@ echo ""
 # Dependencies
 echo "Cloning Dependencies Samsung"
 rm -rf hardware/samsung;
-git clone https://github.com/r8s-oss/android_hardware_samsung hardware/samsung;
+git clone https://github.com/GiovanYCringe-Experiments/android_hardware_samsung hardware/samsung;
 git clone https://github.com/LineageOS/android_hardware_samsung_slsi_libbt hardware/samsung_slsi/libbt;
 git clone https://github.com/LineageOS/android_hardware_samsung_slsi_scsc_wifibt_wifi_hal hardware/samsung_slsi/scsc_wifibt/wifi_hal;
 git clone https://github.com/LineageOS/android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib;
