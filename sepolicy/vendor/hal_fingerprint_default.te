@@ -1,0 +1,20 @@
+allow hal_fingerprint_default efs_file:dir search;
+
+r_dir_file(hal_fingerprint_default, sec_efs_file);
+
+allow hal_fingerprint_default sysfs_battery:dir search;
+allow hal_fingerprint_default sysfs_battery:file { open read };
+
+allow hal_fingerprint_default sysfs_lcd_writable:dir search;
+allow hal_fingerprint_default sysfs_lcd_writable:file r_file_perms;
+allow hal_fingerprint_default sysfs_lcd_writable:file { write };
+
+# /sys/class/backlight/panel/brightness
+allow hal_fingerprint_default sysfs_backlight_writable:file rw_file_perms;
+
+# /sys/class/sec/tsp/cmd
+allow hal_fingerprint_default sysfs_sec_touchscreen:dir r_dir_perms;
+allow hal_fingerprint_default sysfs_touchscreen_writable:file rw_file_perms;
+allow hal_fingerprint_default sysfs_backlight_writable:dir r_dir_perms;
+
+allow hal_fingerprint_default uhid_device:chr_file rw_file_perms;
